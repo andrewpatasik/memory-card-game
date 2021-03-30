@@ -1,1 +1,1 @@
-# react app boilerplate alternative to RCA
+# poketch made with react
