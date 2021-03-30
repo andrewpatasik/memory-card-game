@@ -1,1 +1,1 @@
-# react-starter-pack template for creating React App alternative to RCA
+# react app boilerplate alternative to RCA
