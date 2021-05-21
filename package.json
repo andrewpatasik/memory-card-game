@@ -1,7 +1,7 @@
 {
-  "name": "react-starter-pack",
+  "name": "memory-card-game",
   "version": "1.0.0",
-  "description": "react template alternative to CRA",
+  "description": "the odin project",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development --open --hot",
@@ -10,12 +10,14 @@
   "author": "Andrew Patasik",
   "license": "MIT",
   "dependencies": {
+    "@babel/runtime": "^7.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-react": "^7.12.13",
     "babel-loader": "^8.2.2",

@@ -6,6 +6,35 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: whitesmoke;
-    color: rgba(0, 0, 0, 75%);
+    background-color: rgba(0, 0, 0, 90%);
+    color: whitesmoke;
+}
+
+img {
+    width: 180px;
+    opacity: 70%;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 100%;
+    transition: 0.5s ease;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 10px;
+    width: 40%;
+}
+
+.overlay {
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
